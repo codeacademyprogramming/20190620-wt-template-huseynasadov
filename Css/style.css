@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: rgba(240, 239, 239, 0.486);
+}
+
+header .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header .startbootstrap {
+    color: black;
+    font-size: 20px;
+}
+
+header .header .sign {
+    color: white;
+    font-size: 15px;
+    background-color: #007bff;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: 700;
+    transition: 0.2s all;
+}
+
+header .header .sign:hover {
+    background-color: #046bda;
+    transition: 0.2s all;
+}
+
+/* main */
+
+/* Section-1 Sea */
+
+.sea {
+    background-image: linear-gradient(to right, rgba(54, 47, 42, 0.384), rgba(49, 44, 39, 0.301)), url("../images/bg-masthead.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.sea .project {
+    text-align: center;
+    color: white;
+    margin-top: 190px;
+}
+
+h1 {
+    width: 72%;
+    margin: 0 auto 40px auto;
+    font-size: 47px;
+}
+
+.sea .signup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.sea .signup input {
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 250px 10px 15px;
+    border: none;
+    margin: 0 5px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.sea .signup a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: 2px solid #2b86e7ad;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+.sea .signup a:hover {
+    background-color: #0371e6;
+    transition: 0.1s all;
+}
+
+/* Section-2 Configure */
+
+#configure {
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 239, 239, 0.486);
+}
+
+#configure .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px auto;
+    width: 90%;
+}
+
+#configure .icons .icontv, .iconlayer, .iconok {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#configure .icons div:hover i {
+    transform: scale(1.1);
+}
+
+#configure .icons i {
+    color: #007bff;
+    font-size: 70px;
+}
+
+#configure .icons h3 {
+    font-size: 28px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.774);
+    margin: 23px 0 12px 0;
+}
+
+#configure .icons p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.568);
+    width: 90%;
+}
+
+/* section-3 Information-Galery */
+
+#information .galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#information .galery div {
+    flex: 50%;
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+}
+
+#information .galery h2 {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.774);
+    margin-bottom: 10px;
+}
+
+#information .galery p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.774);
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+#information .telpic {
+    background-image: url("../images/bg-showcase-1.jpg");
+}
+
+#information .codpic {
+    background-image: url("../images/bg-showcase-2.jpg");
+}
+
+#information .babypic {
+    background-image: url("../images/bg-showcase-3.jpg");
+}
+
+#information .citat {
+    padding: 12% 8%;
+}
+
+/* section People Saying */
+
+#saying {
+    background-color: rgba(240, 239, 239, 0.486);
+}
+
+#saying h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.849);
+    padding-top: 105px;
+}
+
+#saying .people {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+
+#saying .people .peoplesay {
+    width: 30%;
+    text-align: center;
+}
+
+#saying .people .peoplesay img {
+    max-width: 192px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 12px rgba(86, 56, 196, 0.301);
+}
+
+#saying .people .peoplesay h5 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.884);
+    margin: 10px 0;
+}
+
+#saying .people .peoplesay p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+/*Section-5 Copy Sea */
+
+.sea .copysea {
+    text-align: center;
+    color: white;
+    margin-top: 105px;
+}
+
+.sea .copysea h2 {
+    font-size: 30px;
+    width: 72%;
+    margin: 0 auto 30px auto;
+}
+
+.sea .copysea div {
+    margin-bottom: 110px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+footer .contact ul {}
+
+footer .contact ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+footer .contact ul li a {
+    color: #007bff;
+}
+
+footer .contact ul li a:hover {
+    color: #046bda;
+    text-decoration-line: underline;
+}
+
+footer .contact p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.685);
+    margin-top: 10px;
+}
+
+footer .sosial a {
+    font-size: 31px;
+    color: rgb(81, 135, 236);
+    margin-right: 25px;
+}
+
+footer .sosial a:hover {
+    color: rgb(58, 99, 173);
+}
+
+footer .sosial .fb {
+    border-radius: 100%;
+}
